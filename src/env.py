@@ -6,8 +6,5 @@ ENV_TAGGING_DONE = 'DONE'
 
 # configure your absolute paths to be scanned
 ENV_PATHS = [
-    '/storage/X30/jriver/soulseek/complete',
-    '/storage/X30/jriver/deemix/downloads/',
-    '/storage/X30/jriver/ready/',
-    '/storage/X30/jriver/temp/',
+	'/Users/Shared/rips'
 ]

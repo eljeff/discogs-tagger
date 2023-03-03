@@ -10,11 +10,18 @@ from mutagen.id3 import ID3, TXXX
 
 def TaggerWriteData(files, discogs):
 
+    # print(discogs['json'])
+
+    # artist
+    artist = discogs['json'].get('artists_sort')
+
     # label
     label = discogs['json'].get('labels')[0]['name']
+    print("label is " + label)
 
     # country
     country = discogs['json'].get('country')
+    print("country is " + label)
 
     if country is None:
         country = ''
@@ -38,6 +45,7 @@ def TaggerWriteData(files, discogs):
             if file_extension == 'flac':
                 f = FLAC(file)
 
+                f['artist'] = artist
                 f['organization'] = label
                 f['composer'] = genres
                 f['genre'] = styles

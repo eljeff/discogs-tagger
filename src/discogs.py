@@ -28,9 +28,18 @@ def Discogs(files):
         # if file.get('custom')[0][:4] == ENV_TAGGING_TODO:
         #     return ENV_TAGGING_TODO
         
-        discogs_url = file.get('custom')[0]
-        discogs_slug = discogs_url.rsplit('/', 1)[1]
-        discogs_id = discogs_slug.split('-', 1)[0]
+        release_id = file.get('discogs_release_id')[0]
+        if release_id is None:
+            discogs_url = file.get('custom')[0]
+            discogs_slug = discogs_url.rsplit('/', 1)[1]
+            discogs_id = discogs_slug.split('-', 1)[0]
+            print("discogs_id ID from discogs_id")
+        else:
+            discogs_id = release_id
+            discogs_url = "https://www.discogs.com/release/" + str(release_id)
+            print("discogs_id ID from release_id")
+
+        print("discogs_id IS " + discogs_id)
 
     # MP3
     elif file_extension == 'mp3':

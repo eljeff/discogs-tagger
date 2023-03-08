@@ -28,13 +28,12 @@ def Discogs(files):
         # if file.get('custom')[0][:4] == ENV_TAGGING_TODO:
         #     return ENV_TAGGING_TODO
         
-        release_id = file.get('discogs_release_id')[0]
-        if release_id is None:
-            discogs_url = file.get('custom')[0]
-            discogs_slug = discogs_url.rsplit('/', 1)[1]
-            discogs_id = discogs_slug.split('-', 1)[0]
-            print("discogs_id ID from discogs_id")
+        release_id_arr = file.get('discogs_release_id')
+
+        if release_id_arr is None:
+            return None
         else:
+            release_id = release_id_arr[0]
             discogs_id = release_id
             discogs_url = "https://www.discogs.com/release/" + str(release_id)
             print("discogs_id ID from release_id")
@@ -59,8 +58,8 @@ def Discogs(files):
         discogs_id = discogs_slug.split('-', 1)[0]
 
     # logics if discogs/master
-    if '/master/' in discogs_url:
-        discogs_id = DiscogsGetReleaseFromMaster(discogs_id)
+    # if '/master/' in discogs_url:
+    #     discogs_id = DiscogsGetReleaseFromMaster(discogs_id)
 
     DiscogsSleep()
     

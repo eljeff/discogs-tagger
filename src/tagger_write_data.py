@@ -44,18 +44,40 @@ def TaggerWriteData(files, discogs):
     # styles
     styles = UtilsArrayToString(discogs['json'].get('styles'))
 
+    track_list = discogs['json'].get('tracklist')
+
     i = 0
 
     for file in files:
         i += 1
-        track_title = discogs['json'].get('tracklist')[i].get('title')
+
+        track_artist = ''
+        track_title = ''
+        
+        for track_info in track_list:
+            position = track_info.get('position')
+            if position != '':
+                if int(position) == i:
+                    track_title = track_info.get('title')
+
+                    track_artists = track_info.get('artists')
+                    if track_artists is not None and len(track_artists) > 0:
+                        track_artist = track_artists[0].get('name')
+                    else:
+                        track_artist = artist
+
+                    print("got info")
+                    print(track_info)
+
+
+        print("track_artist is " + track_artist)
         print("track_title is " + track_title)
         try:
             file_extension = file.rsplit('.', 1)[1]
 
             if file_extension == 'flac':
                 f = FLAC(file)
-                f['artist'] = artist
+                f['artist'] = track_artist
                 f['albumartist'] = artist
                 f['album'] = album
                 f['title'] = track_title

@@ -1,5 +1,9 @@
 # <img width=25 src="https://www.discogs.com/images/brand/discogs-logo.svg"> Discogs to ID3 tagger
 
+Personal note: I don't know much about this repo, but it was getting results I can build on, so I've copied it to my own project for further de/reconstruction.
+
+---> WIP <---
+
 <p align=center>
   <a href="https://github.com/bamdadsabbagh/tagger"><img width=150 src="https://www.discogs.com/images/brand/discogs-logo.svg"></a>
 </p>

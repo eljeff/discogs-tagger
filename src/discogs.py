@@ -19,14 +19,14 @@ def Discogs(files):
     if file_extension == 'flac':
         file = mutagen.File(files[0])
 
-        if file.get('custom') is None:
-            return None
+        # if file.get('custom') is None:
+        #     return None
 
-        if file.get('custom')[0][:4] == ENV_TAGGING_DONE:
-            return ENV_TAGGING_DONE
+        # if file.get('custom')[0][:4] == ENV_TAGGING_DONE:
+        #     return ENV_TAGGING_DONE
         
-        if file.get('custom')[0][:4] == ENV_TAGGING_TODO:
-            return ENV_TAGGING_TODO
+        # if file.get('custom')[0][:4] == ENV_TAGGING_TODO:
+        #     return ENV_TAGGING_TODO
         
         discogs_url = file.get('custom')[0]
         discogs_slug = discogs_url.rsplit('/', 1)[1]

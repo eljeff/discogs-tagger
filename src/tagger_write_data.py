@@ -14,6 +14,11 @@ def TaggerWriteData(files, discogs):
 
     # artist
     artist = discogs['json'].get('artists_sort')
+    print("artist is " + artist)
+
+    # album
+    album = discogs['json'].get('title')
+    print("album is " + album)
 
     # label
     label = discogs['json'].get('labels')[0]['name']
@@ -21,16 +26,17 @@ def TaggerWriteData(files, discogs):
 
     # country
     country = discogs['json'].get('country')
-    print("country is " + label)
+    print("country is " + country)
 
     if country is None:
         country = ''
 
     # date
-    date = discogs['json'].get('released')
+    date = discogs['json'].get('year')
+    print("date is " + str(date))
 
-    if date is not None:
-        date = [date.replace('-', '/').replace('/00', '/01')]
+    # if date is not None:
+    #     date = [date.replace('-', '/').replace('/00', '/01')]
 
     # genres
     genres = UtilsArrayToString(discogs['json'].get('genres'))
@@ -38,23 +44,29 @@ def TaggerWriteData(files, discogs):
     # styles
     styles = UtilsArrayToString(discogs['json'].get('styles'))
 
+    i = 0
+
     for file in files:
+        i += 1
+        track_title = discogs['json'].get('tracklist')[i].get('title')
+        print("track_title is " + track_title)
         try:
             file_extension = file.rsplit('.', 1)[1]
 
             if file_extension == 'flac':
                 f = FLAC(file)
-
                 f['artist'] = artist
                 f['organization'] = label
                 f['composer'] = genres
                 f['genre'] = styles
-                if date is not None: f['date'] = date
+                if date is not None: f['date'] = str(date)
                 f['country'] = country
-                f['custom'] = ENV_TAGGING_DONE + ' ' + f['custom'][0]
+                # f['custom'] = ENV_TAGGING_DONE + ' ' + f['custom'][0]
 
+                print("saving flac...")
                 f.save()
 
+                print("got flac")
                 print(f['tracknumber'][0] + ' done')
             
             if file_extension == 'mp3':

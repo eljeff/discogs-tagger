@@ -1,0 +1,2566 @@
+{
+   "id":308978,
+   "status":"Accepted",
+   "year":2004,
+   "resource_url":"https://api.discogs.com/releases/308978",
+   "uri":"https://www.discogs.com/release/308978-Various-The-Definitive-Electro-Hip-Hop-Collection",
+   "artists":[
+      {
+         "name":"Various",
+         "anv":"",
+         "join":"",
+         "role":"",
+         "tracks":"",
+         "id":194,
+         "resource_url":""
+      }
+   ],
+   "artists_sort":"Various",
+   "labels":[
+      {
+         "name":"Universal Music TV",
+         "catno":"981 684-9",
+         "entity_type":"1",
+         "entity_type_name":"Label",
+         "id":12708,
+         "resource_url":"https://api.discogs.com/labels/12708"
+      },
+      {
+         "name":"Street Sounds",
+         "catno":"981 684-9",
+         "entity_type":"1",
+         "entity_type_name":"Label",
+         "id":906,
+         "resource_url":"https://api.discogs.com/labels/906"
+      }
+   ],
+   "series":[
+      
+   ],
+   "companies":[
+      {
+         "name":"Welk Music Group",
+         "catno":"",
+         "entity_type":"4",
+         "entity_type_name":"Record Company",
+         "id":21519,
+         "resource_url":"https://api.discogs.com/labels/21519"
+      },
+      {
+         "name":"Universal Music TV",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":12708,
+         "resource_url":"https://api.discogs.com/labels/12708"
+      },
+      {
+         "name":"Tommy Boy Music",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":502,
+         "resource_url":"https://api.discogs.com/labels/502"
+      },
+      {
+         "name":"Cutting Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":2517,
+         "resource_url":"https://api.discogs.com/labels/2517"
+      },
+      {
+         "name":"JDC Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":27958,
+         "resource_url":"https://api.discogs.com/labels/27958"
+      },
+      {
+         "name":"Vanguard Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":110508,
+         "resource_url":"https://api.discogs.com/labels/110508"
+      },
+      {
+         "name":"Fantasy, Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":268137,
+         "resource_url":"https://api.discogs.com/labels/268137"
+      },
+      {
+         "name":"UMG Recordings, Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":272782,
+         "resource_url":"https://api.discogs.com/labels/272782"
+      },
+      {
+         "name":"Bad Boy Records (5)",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":119820,
+         "resource_url":"https://api.discogs.com/labels/119820"
+      },
+      {
+         "name":"Zomba Recording Corporation",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":19780,
+         "resource_url":"https://api.discogs.com/labels/19780"
+      },
+      {
+         "name":"Polydor Ltd. (UK)",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":100642,
+         "resource_url":"https://api.discogs.com/labels/100642"
+      },
+      {
+         "name":"Select Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":9176,
+         "resource_url":"https://api.discogs.com/labels/9176"
+      },
+      {
+         "name":"Chrysalis Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":94729,
+         "resource_url":"https://api.discogs.com/labels/94729"
+      },
+      {
+         "name":"Sony Music Entertainment Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":19795,
+         "resource_url":"https://api.discogs.com/labels/19795"
+      },
+      {
+         "name":"Capitol Records, Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":87317,
+         "resource_url":"https://api.discogs.com/labels/87317"
+      },
+      {
+         "name":"ZTT Records Ltd.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":273979,
+         "resource_url":"https://api.discogs.com/labels/273979"
+      },
+      {
+         "name":"Enjoy Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":10149,
+         "resource_url":"https://api.discogs.com/labels/10149"
+      },
+      {
+         "name":"MCA Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":878,
+         "resource_url":"https://api.discogs.com/labels/878"
+      },
+      {
+         "name":"Castle Copyrights Ltd.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":287261,
+         "resource_url":"https://api.discogs.com/labels/287261"
+      },
+      {
+         "name":"Virgin Records Ltd.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":26760,
+         "resource_url":"https://api.discogs.com/labels/26760"
+      },
+      {
+         "name":"Universal Records",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":796,
+         "resource_url":"https://api.discogs.com/labels/796"
+      },
+      {
+         "name":"Zomba Records Ltd.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":170158,
+         "resource_url":"https://api.discogs.com/labels/170158"
+      },
+      {
+         "name":"Unidisc Music Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":224331,
+         "resource_url":"https://api.discogs.com/labels/224331"
+      },
+      {
+         "name":"Arista Records, Inc.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":264254,
+         "resource_url":"https://api.discogs.com/labels/264254"
+      },
+      {
+         "name":"Factory Communications Ltd.",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":264405,
+         "resource_url":"https://api.discogs.com/labels/264405"
+      },
+      {
+         "name":"Atlantic Recording Corporation",
+         "catno":"",
+         "entity_type":"13",
+         "entity_type_name":"Phonographic Copyright (p)",
+         "id":23937,
+         "resource_url":"https://api.discogs.com/labels/23937"
+      },
+      {
+         "name":"Universal Music TV",
+         "catno":"",
+         "entity_type":"14",
+         "entity_type_name":"Copyright (c)",
+         "id":12708,
+         "resource_url":"https://api.discogs.com/labels/12708"
+      },
+      {
+         "name":"Universal Music Operations Ltd.",
+         "catno":"",
+         "entity_type":"5",
+         "entity_type_name":"Licensed To",
+         "id":120257,
+         "resource_url":"https://api.discogs.com/labels/120257"
+      },
+      {
+         "name":"Warner Strategic Marketing United Kingdom",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":234082,
+         "resource_url":"https://api.discogs.com/labels/234082"
+      },
+      {
+         "name":"Ace Records Ltd.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":228088,
+         "resource_url":"https://api.discogs.com/labels/228088"
+      },
+      {
+         "name":"Jive Records",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":118046,
+         "resource_url":"https://api.discogs.com/labels/118046"
+      },
+      {
+         "name":"Sony Music Entertainment (UK) Ltd.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":33768,
+         "resource_url":"https://api.discogs.com/labels/33768"
+      },
+      {
+         "name":"ZTT Records Ltd.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":273979,
+         "resource_url":"https://api.discogs.com/labels/273979"
+      },
+      {
+         "name":"Sanctuary Records Group",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":72401,
+         "resource_url":"https://api.discogs.com/labels/72401"
+      },
+      {
+         "name":"Unidisc Music Inc.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":224331,
+         "resource_url":"https://api.discogs.com/labels/224331"
+      },
+      {
+         "name":"The Licensing Partnership UK Ltd.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":443209,
+         "resource_url":"https://api.discogs.com/labels/443209"
+      },
+      {
+         "name":"BMG UK & Ireland Ltd.",
+         "catno":"",
+         "entity_type":"6",
+         "entity_type_name":"Licensed From",
+         "id":64139,
+         "resource_url":"https://api.discogs.com/labels/64139"
+      },
+      {
+         "name":"Universal Music Operations Ltd.",
+         "catno":"",
+         "entity_type":"8",
+         "entity_type_name":"Marketed By",
+         "id":120257,
+         "resource_url":"https://api.discogs.com/labels/120257"
+      },
+      {
+         "name":"Universal Music Operations Ltd.",
+         "catno":"",
+         "entity_type":"9",
+         "entity_type_name":"Distributed By",
+         "id":120257,
+         "resource_url":"https://api.discogs.com/labels/120257"
+      },
+      {
+         "name":"Universal M & L, UK",
+         "catno":"",
+         "entity_type":"17",
+         "entity_type_name":"Pressed By",
+         "id":384694,
+         "resource_url":"https://api.discogs.com/labels/384694"
+      }
+   ],
+   "formats":[
+      {
+         "name":"CD",
+         "qty":"2",
+         "descriptions":[
+            "Mixed"
+         ]
+      }
+   ],
+   "data_quality":"Correct",
+   "community":{
+      "have":411,
+      "want":126,
+      "rating":{
+         "count":45,
+         "average":4.56
+      },
+      "submitter":{
+         "username":"avvy",
+         "resource_url":"https://api.discogs.com/users/avvy"
+      },
+      "contributors":[
+         {
+            "username":"avvy",
+            "resource_url":"https://api.discogs.com/users/avvy"
+         },
+         {
+            "username":"barticle",
+            "resource_url":"https://api.discogs.com/users/barticle"
+         },
+         {
+            "username":"metalchuckkey",
+            "resource_url":"https://api.discogs.com/users/metalchuckkey"
+         },
+         {
+            "username":"DJ343",
+            "resource_url":"https://api.discogs.com/users/DJ343"
+         },
+         {
+            "username":"Jooles",
+            "resource_url":"https://api.discogs.com/users/Jooles"
+         },
+         {
+            "username":"md",
+            "resource_url":"https://api.discogs.com/users/md"
+         },
+         {
+            "username":"djvirus",
+            "resource_url":"https://api.discogs.com/users/djvirus"
+         },
+         {
+            "username":"fill_in_the_gaps",
+            "resource_url":"https://api.discogs.com/users/fill_in_the_gaps"
+         },
+         {
+            "username":"bulletproof_punk",
+            "resource_url":"https://api.discogs.com/users/bulletproof_punk"
+         },
+         {
+            "username":"--AjC--",
+            "resource_url":"https://api.discogs.com/users/--AjC--"
+         },
+         {
+            "username":"cameosis",
+            "resource_url":"https://api.discogs.com/users/cameosis"
+         },
+         {
+            "username":"sebfact",
+            "resource_url":"https://api.discogs.com/users/sebfact"
+         },
+         {
+            "username":"audio_man",
+            "resource_url":"https://api.discogs.com/users/audio_man"
+         },
+         {
+            "username":"diseone",
+            "resource_url":"https://api.discogs.com/users/diseone"
+         },
+         {
+            "username":"officialandbootz",
+            "resource_url":"https://api.discogs.com/users/officialandbootz"
+         },
+         {
+            "username":"DiscogsUpdateBot",
+            "resource_url":"https://api.discogs.com/users/DiscogsUpdateBot"
+         },
+         {
+            "username":"adrian.schmitt.96",
+            "resource_url":"https://api.discogs.com/users/adrian.schmitt.96"
+         },
+         {
+            "username":"hdines",
+            "resource_url":"https://api.discogs.com/users/hdines"
+         },
+         {
+            "username":"rca76",
+            "resource_url":"https://api.discogs.com/users/rca76"
+         }
+      ],
+      "data_quality":"Correct",
+      "status":"Accepted"
+   },
+   "format_quantity":2,
+   "date_added":"2004-08-10T15:35:03-07:00",
+   "date_changed":"2023-02-24T10:47:14-08:00",
+   "num_for_sale":5,
+   "lowest_price":7.23,
+   "title":"The Definitive Electro & Hip Hop Collection",
+   "country":"UK",
+   "released":"2004-08-09",
+   "notes":"There\\'s a few mistakes on the track listing:\n- 1.01 is listed as \"[a17531]\" when it\\'s really \"[a2532]\"\n- 1.11 is listed as \"[a21920] & [a50514]\" when it\\'s really \"[a17101]\"\n- 2.03 is listed as \"[a21715]\" when it\\'s really \"[a20593]\"\n- 2.19 is listed as \"Jam On It\" when it\\'s really \"Jam On Revenge\"\n- 2.21 is listed as \"Warp 21\" when it\\'s really \"[a14654]\"\n- 2.23 is listed as \"Jonzun Crew - Pack Jam\" when it\\'s really \"[a18199] - I\\'m The Packman\" even though the Packman track is already on CD 1",
+   "released_formatted":"09 Aug 2004",
+   "identifiers":[
+      {
+         "type":"Barcode",
+         "value":"0 602498 168493",
+         "description":"Text"
+      },
+      {
+         "type":"Barcode",
+         "value":"0602498168493",
+         "description":"Scanned"
+      },
+      {
+         "type":"Other",
+         "value":"981685-0",
+         "description":"CD1 Cat#"
+      },
+      {
+         "type":"Other",
+         "value":"981685-1",
+         "description":"CD2 Cat#"
+      },
+      {
+         "type":"Rights Society",
+         "value":"BIEM/SABAM"
+      },
+      {
+         "type":"Matrix / Runout",
+         "value":"9816850 01",
+         "description":"CD 1"
+      },
+      {
+         "type":"Matrix / Runout",
+         "value":"9816851 01",
+         "description":"CD 2"
+      },
+      {
+         "type":"Matrix / Runout",
+         "value":"MADE IN THE UK BY UNIVERSAL M&L",
+         "description":"Mould CD 2"
+      },
+      {
+         "type":"Matrix / Runout",
+         "value":"[\"UNIVERSAL\" logo x4]",
+         "description":"CD 1/2"
+      },
+      {
+         "type":"Mastering SID Code",
+         "value":"IFPI L135",
+         "description":"CD 1/2"
+      },
+      {
+         "type":"Mould SID Code",
+         "value":"IFPI 04AB",
+         "description":"CD 1"
+      },
+      {
+         "type":"Mould SID Code",
+         "value":"IFPI 04D5",
+         "description":"CD 2"
+      }
+   ],
+   "videos":[
+      {
+         "uri":"https://www.youtube.com/watch?v=yK0kDoHrfUk",
+         "title":"Electro The Definitive Collection Part 1",
+         "description":"1980's Hip Hop\n\nhttps://www.facebook.com/pages/1980s-HIP-HOP",
+         "duration":4416,
+         "embed":true
+      },
+      {
+         "uri":"https://www.youtube.com/watch?v=dFsjlcnsyUM",
+         "title":"Electro The Definitive Collection Part 2",
+         "description":"1980's Hip Hop\n\nhttps://www.facebook.com/pages/1980s-HIP-HOP",
+         "duration":4427,
+         "embed":true
+      }
+   ],
+   "genres":[
+      "Hip Hop"
+   ],
+   "styles":[
+      "Electro"
+   ],
+   "tracklist":[
+      {
+         "position":"1.01",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Afrika Bambaataa & Soulsonic Force",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":2532,
+               "resource_url":"https://api.discogs.com/artists/2532"
+            }
+         ],
+         "title":"Planet Rock",
+         "extraartists":[
+            {
+               "name":"Arthur Baker",
+               "anv":"A. Baker",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":4158,
+               "resource_url":"https://api.discogs.com/artists/4158"
+            },
+            {
+               "name":"John Robie",
+               "anv":"J. Robie",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":23679,
+               "resource_url":"https://api.discogs.com/artists/23679"
+            },
+            {
+               "name":"Florian Schneider",
+               "anv":"",
+               "join":"",
+               "role":"Written-By [Numbers]",
+               "tracks":"",
+               "id":373381,
+               "resource_url":"https://api.discogs.com/artists/373381"
+            },
+            {
+               "name":"Karl Bartos",
+               "anv":"",
+               "join":"",
+               "role":"Written-By [Numbers]",
+               "tracks":"",
+               "id":22862,
+               "resource_url":"https://api.discogs.com/artists/22862"
+            },
+            {
+               "name":"Ralf Hütter",
+               "anv":"Ralf Hutter",
+               "join":"",
+               "role":"Written-By [Numbers]",
+               "tracks":"",
+               "id":92412,
+               "resource_url":"https://api.discogs.com/artists/92412"
+            },
+            {
+               "name":"Emil Schult",
+               "anv":"",
+               "join":"",
+               "role":"Written-By [Trans Europe Express]",
+               "tracks":"",
+               "id":42121,
+               "resource_url":"https://api.discogs.com/artists/42121"
+            },
+            {
+               "name":"Ralf Hütter",
+               "anv":"Ralf Hutter",
+               "join":"",
+               "role":"Written-By [Trans Europe Express]",
+               "tracks":"",
+               "id":92412,
+               "resource_url":"https://api.discogs.com/artists/92412"
+            }
+         ],
+         "duration":"5:26"
+      },
+      {
+         "position":"1.02",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Hashim",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3422,
+               "resource_url":"https://api.discogs.com/artists/3422"
+            }
+         ],
+         "title":"Al Naafiysh (The Soul)",
+         "extraartists":[
+            {
+               "name":"Jerry Calliste Jr.",
+               "anv":"Calliste",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":514461,
+               "resource_url":"https://api.discogs.com/artists/514461"
+            }
+         ],
+         "duration":"3:00"
+      },
+      {
+         "position":"1.03",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Egyptian Lover",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4098,
+               "resource_url":"https://api.discogs.com/artists/4098"
+            }
+         ],
+         "title":"Egypt Egypt",
+         "extraartists":[
+            {
+               "name":"Greg Broussard",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":672163,
+               "resource_url":"https://api.discogs.com/artists/672163"
+            }
+         ],
+         "duration":"2:54"
+      },
+      {
+         "position":"1.04",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Twilight 22",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3859,
+               "resource_url":"https://api.discogs.com/artists/3859"
+            }
+         ],
+         "title":"Electric Kingdom",
+         "extraartists":[
+            {
+               "name":"Errol Moore",
+               "anv":"E. Moore",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":258742,
+               "resource_url":"https://api.discogs.com/artists/258742"
+            },
+            {
+               "name":"Gordon Bahary",
+               "anv":"G. Bahary",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":217682,
+               "resource_url":"https://api.discogs.com/artists/217682"
+            },
+            {
+               "name":"Joseph Saulter",
+               "anv":"J. Saulter",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":727461,
+               "resource_url":"https://api.discogs.com/artists/727461"
+            }
+         ],
+         "duration":"1:49"
+      },
+      {
+         "position":"1.05",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Cybotron",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3863,
+               "resource_url":"https://api.discogs.com/artists/3863"
+            }
+         ],
+         "title":"Clear",
+         "extraartists":[
+            {
+               "name":"Juan Atkins",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":1102,
+               "resource_url":"https://api.discogs.com/artists/1102"
+            },
+            {
+               "name":"Richard Davis (3)",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":465878,
+               "resource_url":"https://api.discogs.com/artists/465878"
+            }
+         ],
+         "duration":"2:34"
+      },
+      {
+         "position":"1.06",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"World Class Wreckin' Cru",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":1458,
+               "resource_url":"https://api.discogs.com/artists/1458"
+            }
+         ],
+         "title":"Mission Possible",
+         "extraartists":[
+            {
+               "name":"Alonzo Williams",
+               "anv":"A. Williams",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":2922488,
+               "resource_url":"https://api.discogs.com/artists/2922488"
+            },
+            {
+               "name":"Andre Young",
+               "anv":"A. Young",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":251429,
+               "resource_url":"https://api.discogs.com/artists/251429"
+            },
+            {
+               "name":"Barry Severe",
+               "anv":"B. Severe",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":719366,
+               "resource_url":"https://api.discogs.com/artists/719366"
+            }
+         ],
+         "duration":"2:01"
+      },
+      {
+         "position":"1.07",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Eric B. & Rakim",
+               "anv":"Eric B & Rakim",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4033,
+               "resource_url":"https://api.discogs.com/artists/4033"
+            }
+         ],
+         "title":"Paid In Full",
+         "extraartists":[
+            {
+               "name":"Eric Barrier",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":685127,
+               "resource_url":"https://api.discogs.com/artists/685127"
+            },
+            {
+               "name":"William Michael Griffin, Jr.",
+               "anv":"William Griffin",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":671902,
+               "resource_url":"https://api.discogs.com/artists/671902"
+            }
+         ],
+         "duration":"3:27"
+      },
+      {
+         "position":"1.08",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Stetsasonic",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":2604,
+               "resource_url":"https://api.discogs.com/artists/2604"
+            }
+         ],
+         "title":"Just Say Stet",
+         "extraartists":[
+            {
+               "name":"Stetsasonic",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":2604,
+               "resource_url":"https://api.discogs.com/artists/2604"
+            }
+         ],
+         "duration":"3:58"
+      },
+      {
+         "position":"1.09",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Beastie Boys",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":10783,
+               "resource_url":"https://api.discogs.com/artists/10783"
+            }
+         ],
+         "title":"Hold It Now, Hit It",
+         "extraartists":[
+            {
+               "name":"Adam Horovitz",
+               "anv":"Horovitz",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":33481,
+               "resource_url":"https://api.discogs.com/artists/33481"
+            },
+            {
+               "name":"Adam Yauch",
+               "anv":"Yauch",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":413559,
+               "resource_url":"https://api.discogs.com/artists/413559"
+            },
+            {
+               "name":"Michael Diamond (3)",
+               "anv":"Diamond",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":4043933,
+               "resource_url":"https://api.discogs.com/artists/4043933"
+            },
+            {
+               "name":"Rick Rubin",
+               "anv":"Rubin",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":68211,
+               "resource_url":"https://api.discogs.com/artists/68211"
+            }
+         ],
+         "duration":"3:19"
+      },
+      {
+         "position":"1.10",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Kurtis Blow",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":13151,
+               "resource_url":"https://api.discogs.com/artists/13151"
+            }
+         ],
+         "title":"The Bronx",
+         "extraartists":[
+            {
+               "name":"Bill Black",
+               "anv":"B. Black",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":208164,
+               "resource_url":"https://api.discogs.com/artists/208164"
+            },
+            {
+               "name":"Kurtis Blow",
+               "anv":"K. Blow",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":13151,
+               "resource_url":"https://api.discogs.com/artists/13151"
+            },
+            {
+               "name":"William Waring",
+               "anv":"W. Waring",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":719671,
+               "resource_url":"https://api.discogs.com/artists/719671"
+            }
+         ],
+         "duration":"3:08"
+      },
+      {
+         "position":"1.11",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Boogie Down Productions",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":17101,
+               "resource_url":"https://api.discogs.com/artists/17101"
+            }
+         ],
+         "title":"South Bronx",
+         "extraartists":[
+            {
+               "name":"DJ Scott La Rock",
+               "anv":"Scott La Rock",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":21920,
+               "resource_url":"https://api.discogs.com/artists/21920"
+            },
+            {
+               "name":"Lawrence Krisna Parker",
+               "anv":"L. Parker",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":823424,
+               "resource_url":"https://api.discogs.com/artists/823424"
+            }
+         ],
+         "duration":"3:59"
+      },
+      {
+         "position":"1.12",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"DJ Jazzy Jeff & The Fresh Prince",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":14648,
+               "resource_url":"https://api.discogs.com/artists/14648"
+            }
+         ],
+         "title":"Girls Ain't Nothing But Trouble",
+         "extraartists":[
+            {
+               "name":"Jeff Townes",
+               "anv":"Townes",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":49610,
+               "resource_url":"https://api.discogs.com/artists/49610"
+            },
+            {
+               "name":"Will Smith",
+               "anv":"Smith",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":74169,
+               "resource_url":"https://api.discogs.com/artists/74169"
+            }
+         ],
+         "duration":"3:11"
+      },
+      {
+         "position":"1.13",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Heavy D. & The Boyz",
+               "anv":"Heavy D & The Boyz",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":12137,
+               "resource_url":"https://api.discogs.com/artists/12137"
+            }
+         ],
+         "title":"Mr. Big Stuff",
+         "extraartists":[
+            {
+               "name":"Carrol Washington",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":808650,
+               "resource_url":"https://api.discogs.com/artists/808650"
+            },
+            {
+               "name":"Joseph Broussard",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":808649,
+               "resource_url":"https://api.discogs.com/artists/808649"
+            },
+            {
+               "name":"Ralph Williams (3)",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":808651,
+               "resource_url":"https://api.discogs.com/artists/808651"
+            }
+         ],
+         "duration":"2:22"
+      },
+      {
+         "position":"1.14",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Real Roxanne",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":21910,
+               "resource_url":"https://api.discogs.com/artists/21910"
+            }
+         ],
+         "title":"Bang Zoom (Let's Go-Go)",
+         "extraartists":[
+            {
+               "name":"Full Force",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":41266,
+               "resource_url":"https://api.discogs.com/artists/41266"
+            },
+            {
+               "name":"Howie Tee",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":14484,
+               "resource_url":"https://api.discogs.com/artists/14484"
+            },
+            {
+               "name":"The Real Roxanne",
+               "anv":"Roxanne",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":21910,
+               "resource_url":"https://api.discogs.com/artists/21910"
+            }
+         ],
+         "duration":"3:31"
+      },
+      {
+         "position":"1.15",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"UTFO",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4093,
+               "resource_url":"https://api.discogs.com/artists/4093"
+            }
+         ],
+         "title":"Roxanne, Roxanne",
+         "extraartists":[
+            {
+               "name":"Full Force",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":41266,
+               "resource_url":"https://api.discogs.com/artists/41266"
+            },
+            {
+               "name":"UTFO",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":4093,
+               "resource_url":"https://api.discogs.com/artists/4093"
+            }
+         ],
+         "duration":"2:59"
+      },
+      {
+         "position":"1.16",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Whistle",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":46304,
+               "resource_url":"https://api.discogs.com/artists/46304"
+            }
+         ],
+         "title":"(Nothing Serious) Just Buggin'",
+         "extraartists":[
+            {
+               "name":"Brian Faust (2)",
+               "anv":"Faust",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":6384205,
+               "resource_url":"https://api.discogs.com/artists/6384205"
+            },
+            {
+               "name":"Garvin Dublin",
+               "anv":"Dubbin",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":6384204,
+               "resource_url":"https://api.discogs.com/artists/6384204"
+            }
+         ],
+         "duration":"3:21"
+      },
+      {
+         "position":"1.17",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Doug E. Fresh And The Get Fresh Crew",
+               "anv":"Doug E Fresh & The Get Fresh Crew",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":13876,
+               "resource_url":"https://api.discogs.com/artists/13876"
+            }
+         ],
+         "title":"The Show",
+         "extraartists":[
+            {
+               "name":"Doug E. Fresh",
+               "anv":"E. Doug",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":53485,
+               "resource_url":"https://api.discogs.com/artists/53485"
+            },
+            {
+               "name":"M.C. Ricky D",
+               "anv":"D. Ricky",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":34335,
+               "resource_url":"https://api.discogs.com/artists/34335"
+            },
+            {
+               "name":"The Get Fresh Crew",
+               "anv":"Fresh",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":82783,
+               "resource_url":"https://api.discogs.com/artists/82783"
+            }
+         ],
+         "duration":"4:43"
+      },
+      {
+         "position":"1.18",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Original Concept",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":41305,
+               "resource_url":"https://api.discogs.com/artists/41305"
+            }
+         ],
+         "title":"Can You Feel It?",
+         "extraartists":[
+            {
+               "name":"Andre A. Brown",
+               "anv":"Andre Brown",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":191439,
+               "resource_url":"https://api.discogs.com/artists/191439"
+            }
+         ],
+         "duration":"2:06"
+      },
+      {
+         "position":"1.19",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Davy DMX",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4028,
+               "resource_url":"https://api.discogs.com/artists/4028"
+            }
+         ],
+         "title":"One For The Treble",
+         "extraartists":[
+            {
+               "name":"David Reeves (2)",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":191375,
+               "resource_url":"https://api.discogs.com/artists/191375"
+            }
+         ],
+         "duration":"3:17"
+      },
+      {
+         "position":"1.20",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Mantronix",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3165,
+               "resource_url":"https://api.discogs.com/artists/3165"
+            }
+         ],
+         "title":"King Of The Beats",
+         "extraartists":[
+            {
+               "name":"Bryce Luvah",
+               "anv":"Luvah",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":360120,
+               "resource_url":"https://api.discogs.com/artists/360120"
+            },
+            {
+               "name":"Mantronix",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":3165,
+               "resource_url":"https://api.discogs.com/artists/3165"
+            }
+         ],
+         "duration":"2:21"
+      },
+      {
+         "position":"1.21",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Art Of Noise",
+               "anv":"Art Of Noise",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":7142,
+               "resource_url":"https://api.discogs.com/artists/7142"
+            }
+         ],
+         "title":"Beatbox",
+         "extraartists":[
+            {
+               "name":"The Art Of Noise",
+               "anv":"Art Of Noise",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":7142,
+               "resource_url":"https://api.discogs.com/artists/7142"
+            }
+         ],
+         "duration":"1:27"
+      },
+      {
+         "position":"1.22",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Packman",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":18199,
+               "resource_url":"https://api.discogs.com/artists/18199"
+            }
+         ],
+         "title":"I'm The Packman",
+         "extraartists":[
+            {
+               "name":"Bobby Robinson",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":119103,
+               "resource_url":"https://api.discogs.com/artists/119103"
+            }
+         ],
+         "duration":"2:39"
+      },
+      {
+         "position":"1.23",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Marley Marl",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":13873,
+               "resource_url":"https://api.discogs.com/artists/13873"
+            }
+         ],
+         "title":"He Cut's So Fresh",
+         "extraartists":[
+            {
+               "name":"MC Shan",
+               "anv":"M.C. Shan",
+               "join":"",
+               "role":"Featuring",
+               "tracks":"",
+               "id":48423,
+               "resource_url":"https://api.discogs.com/artists/48423"
+            },
+            {
+               "name":"Marley Marl",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":13873,
+               "resource_url":"https://api.discogs.com/artists/13873"
+            }
+         ],
+         "duration":"3:25"
+      },
+      {
+         "position":"1.24",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Lovebug Starski",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":21906,
+               "resource_url":"https://api.discogs.com/artists/21906"
+            }
+         ],
+         "title":"Amityville",
+         "extraartists":[
+            {
+               "name":"Kurtis Blow",
+               "anv":"K. Blow",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":13151,
+               "resource_url":"https://api.discogs.com/artists/13151"
+            },
+            {
+               "name":"Mervin Rhymes",
+               "anv":"M. Rhymes",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":2828147,
+               "resource_url":"https://api.discogs.com/artists/2828147"
+            },
+            {
+               "name":"Steve Loeb",
+               "anv":"S. Loeb",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":217664,
+               "resource_url":"https://api.discogs.com/artists/217664"
+            }
+         ],
+         "duration":"2:43"
+      },
+      {
+         "position":"2.01",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Herbie Hancock",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3865,
+               "resource_url":"https://api.discogs.com/artists/3865"
+            }
+         ],
+         "title":"Rockit",
+         "extraartists":[
+            {
+               "name":"Bill Laswell",
+               "anv":"B. Laswell",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":661,
+               "resource_url":"https://api.discogs.com/artists/661"
+            },
+            {
+               "name":"Herbie Hancock",
+               "anv":"H. Hancock",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":3865,
+               "resource_url":"https://api.discogs.com/artists/3865"
+            },
+            {
+               "name":"Michael Beinhorn",
+               "anv":"M. Beinhorn",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":92477,
+               "resource_url":"https://api.discogs.com/artists/92477"
+            }
+         ],
+         "duration":"3:42"
+      },
+      {
+         "position":"2.02",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"West Street Mob",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":18200,
+               "resource_url":"https://api.discogs.com/artists/18200"
+            }
+         ],
+         "title":"Break Dancin - Electric Boogie",
+         "extraartists":[
+            {
+               "name":"Jerry Lordan",
+               "anv":"Lordan",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":374063,
+               "resource_url":"https://api.discogs.com/artists/374063"
+            },
+            {
+               "name":"Joey Robinson, Jr.",
+               "anv":"Robinson",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":182286,
+               "resource_url":"https://api.discogs.com/artists/182286"
+            },
+            {
+               "name":"Leland Robinson",
+               "anv":"Robinson",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":115935,
+               "resource_url":"https://api.discogs.com/artists/115935"
+            }
+         ],
+         "duration":"3:47"
+      },
+      {
+         "position":"2.03",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Grandmaster Flash & Melle Mel",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":20593,
+               "resource_url":"https://api.discogs.com/artists/20593"
+            }
+         ],
+         "title":"White Lines (Don't Do It)",
+         "extraartists":[
+            {
+               "name":"Melvin Glover",
+               "anv":"Glover",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":115934,
+               "resource_url":"https://api.discogs.com/artists/115934"
+            },
+            {
+               "name":"Sylvia Robinson",
+               "anv":"Robinson",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":100584,
+               "resource_url":"https://api.discogs.com/artists/100584"
+            }
+         ],
+         "duration":"4:29"
+      },
+      {
+         "position":"2.04",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Rock Steady Crew",
+               "anv":"Rock Steady Crew",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":45963,
+               "resource_url":"https://api.discogs.com/artists/45963"
+            }
+         ],
+         "title":"(Hey You) The Rocksteady Crew",
+         "extraartists":[
+            {
+               "name":"Blue Soldier",
+               "anv":"B. Soldier",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":328562,
+               "resource_url":"https://api.discogs.com/artists/328562"
+            },
+            {
+               "name":"Ruza Blue",
+               "anv":"R. Blue",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":1143496,
+               "resource_url":"https://api.discogs.com/artists/1143496"
+            },
+            {
+               "name":"Stephen Hague",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":23029,
+               "resource_url":"https://api.discogs.com/artists/23029"
+            }
+         ],
+         "duration":"2:34"
+      },
+      {
+         "position":"2.05",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Ollie And Jerry",
+               "anv":"Ollie & Jerry",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":31726,
+               "resource_url":"https://api.discogs.com/artists/31726"
+            }
+         ],
+         "title":"Breakin... There's No Stopping Us",
+         "extraartists":[
+            {
+               "name":"Jerry Knight",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":170598,
+               "resource_url":"https://api.discogs.com/artists/170598"
+            },
+            {
+               "name":"Ollie Brown",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":90951,
+               "resource_url":"https://api.discogs.com/artists/90951"
+            }
+         ],
+         "duration":"3:05"
+      },
+      {
+         "position":"2.06",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Whodini",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4097,
+               "resource_url":"https://api.discogs.com/artists/4097"
+            }
+         ],
+         "title":"Magic's Wand",
+         "extraartists":[
+            {
+               "name":"Jalil Hutchins",
+               "anv":"Hutchins",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":219495,
+               "resource_url":"https://api.discogs.com/artists/219495"
+            },
+            {
+               "name":"John Rivas",
+               "anv":"Rivas",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":840359,
+               "resource_url":"https://api.discogs.com/artists/840359"
+            },
+            {
+               "name":"Matthew Seligman",
+               "anv":"Seligman",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":157444,
+               "resource_url":"https://api.discogs.com/artists/157444"
+            },
+            {
+               "name":"Thomas Dolby",
+               "anv":"Dolby",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":24046,
+               "resource_url":"https://api.discogs.com/artists/24046"
+            }
+         ],
+         "duration":"2:29"
+      },
+      {
+         "position":"2.07",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Man Parrish",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3288,
+               "resource_url":"https://api.discogs.com/artists/3288"
+            }
+         ],
+         "title":"Hip Hop, Be Bop (Don't Stop)",
+         "extraartists":[
+            {
+               "name":"John Robie",
+               "anv":"J. Robie",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":23679,
+               "resource_url":"https://api.discogs.com/artists/23679"
+            },
+            {
+               "name":"Man Parrish",
+               "anv":"M. Parrish",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":3288,
+               "resource_url":"https://api.discogs.com/artists/3288"
+            },
+            {
+               "name":"Raul A. Rodriguez",
+               "anv":"R. Rodriguez",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":48685,
+               "resource_url":"https://api.discogs.com/artists/48685"
+            }
+         ],
+         "duration":"2:26"
+      },
+      {
+         "position":"2.08",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Harold Faltermeyer",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":36628,
+               "resource_url":"https://api.discogs.com/artists/36628"
+            }
+         ],
+         "title":"Axel F",
+         "extraartists":[
+            {
+               "name":"Harold Faltermeyer",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":36628,
+               "resource_url":"https://api.discogs.com/artists/36628"
+            }
+         ],
+         "duration":"2:43"
+      },
+      {
+         "position":"2.09",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Xena",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":21700,
+               "resource_url":"https://api.discogs.com/artists/21700"
+            }
+         ],
+         "title":"On The Upside",
+         "extraartists":[
+            {
+               "name":"Ann Godwin",
+               "anv":"A. Godwin",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":599204,
+               "resource_url":"https://api.discogs.com/artists/599204"
+            },
+            {
+               "name":"Curtis Josephs",
+               "anv":"C. Josephs",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":418120,
+               "resource_url":"https://api.discogs.com/artists/418120"
+            }
+         ],
+         "duration":"2:35"
+      },
+      {
+         "position":"2.10",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Shannon",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":11737,
+               "resource_url":"https://api.discogs.com/artists/11737"
+            }
+         ],
+         "title":"Let The Music Play",
+         "extraartists":[
+            {
+               "name":"Chris Barbosa",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":35233,
+               "resource_url":"https://api.discogs.com/artists/35233"
+            },
+            {
+               "name":"Ed Chisolm",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":207629,
+               "resource_url":"https://api.discogs.com/artists/207629"
+            }
+         ],
+         "duration":"2:47"
+      },
+      {
+         "position":"2.11",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Run-DMC",
+               "anv":"Run DMC",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":219213,
+               "resource_url":"https://api.discogs.com/artists/219213"
+            }
+         ],
+         "title":"It's Like That",
+         "extraartists":[
+            {
+               "name":"Darryl McDaniels",
+               "anv":"D. McDaniels",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":623939,
+               "resource_url":"https://api.discogs.com/artists/623939"
+            },
+            {
+               "name":"Joseph Simmons",
+               "anv":"J. Simmons",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":177456,
+               "resource_url":"https://api.discogs.com/artists/177456"
+            },
+            {
+               "name":"Larry Smith",
+               "anv":"L. Smith",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":136163,
+               "resource_url":"https://api.discogs.com/artists/136163"
+            }
+         ],
+         "duration":"4:36"
+      },
+      {
+         "position":"2.12",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Unknown DJ",
+               "anv":"Unknown DJ",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":76043,
+               "resource_url":"https://api.discogs.com/artists/76043"
+            }
+         ],
+         "title":"808 Beats",
+         "extraartists":[
+            {
+               "name":"Andre Manuel",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":109600,
+               "resource_url":"https://api.discogs.com/artists/109600"
+            }
+         ],
+         "duration":"3:32"
+      },
+      {
+         "position":"2.13",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"New Order",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3909,
+               "resource_url":"https://api.discogs.com/artists/3909"
+            }
+         ],
+         "title":"Confusion",
+         "extraartists":[
+            {
+               "name":"Arthur Baker",
+               "anv":"Baker",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":4158,
+               "resource_url":"https://api.discogs.com/artists/4158"
+            },
+            {
+               "name":"Bernard Sumner",
+               "anv":"Sumner",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":33928,
+               "resource_url":"https://api.discogs.com/artists/33928"
+            },
+            {
+               "name":"Gillian Gilbert",
+               "anv":"Gilbert",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":156003,
+               "resource_url":"https://api.discogs.com/artists/156003"
+            },
+            {
+               "name":"Peter Hook",
+               "anv":"Hook",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":120532,
+               "resource_url":"https://api.discogs.com/artists/120532"
+            },
+            {
+               "name":"Stephen Morris",
+               "anv":"Morris",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":33927,
+               "resource_url":"https://api.discogs.com/artists/33927"
+            }
+         ],
+         "duration":"1:43"
+      },
+      {
+         "position":"2.14",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Arthur Baker",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":4158,
+               "resource_url":"https://api.discogs.com/artists/4158"
+            }
+         ],
+         "title":"Breaker's Revenge",
+         "extraartists":[
+            {
+               "name":"Arthur Baker",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":4158,
+               "resource_url":"https://api.discogs.com/artists/4158"
+            }
+         ],
+         "duration":"2:30"
+      },
+      {
+         "position":"2.15",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"LL Cool J",
+               "anv":"LL Cool J.",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":35746,
+               "resource_url":"https://api.discogs.com/artists/35746"
+            }
+         ],
+         "title":"Rock The Bells",
+         "extraartists":[
+            {
+               "name":"LL Cool J",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":35746,
+               "resource_url":"https://api.discogs.com/artists/35746"
+            },
+            {
+               "name":"Rick Rubin",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":68211,
+               "resource_url":"https://api.discogs.com/artists/68211"
+            }
+         ],
+         "duration":"4:20"
+      },
+      {
+         "position":"2.16",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Full Force",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":41266,
+               "resource_url":"https://api.discogs.com/artists/41266"
+            }
+         ],
+         "title":"Alice, I Want You Just For Me!",
+         "extraartists":[
+            {
+               "name":"Full Force",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":41266,
+               "resource_url":"https://api.discogs.com/artists/41266"
+            },
+            {
+               "name":"Howie Tee",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":14484,
+               "resource_url":"https://api.discogs.com/artists/14484"
+            }
+         ],
+         "duration":"2:18"
+      },
+      {
+         "position":"2.17",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Public Enemy",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":28209,
+               "resource_url":"https://api.discogs.com/artists/28209"
+            }
+         ],
+         "title":"Rebel Without A Pause",
+         "extraartists":[
+            {
+               "name":"Carlton Ridenhour",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":308726,
+               "resource_url":"https://api.discogs.com/artists/308726"
+            },
+            {
+               "name":"Eric Sadler",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":104759,
+               "resource_url":"https://api.discogs.com/artists/104759"
+            },
+            {
+               "name":"James Boxley",
+               "anv":"James henry Boxlee III",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":788877,
+               "resource_url":"https://api.discogs.com/artists/788877"
+            },
+            {
+               "name":"Norman Rogers",
+               "anv":"Norman William Rogers",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":242618,
+               "resource_url":"https://api.discogs.com/artists/242618"
+            }
+         ],
+         "duration":"4:02"
+      },
+      {
+         "position":"2.18",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Rob Base & DJ E-Z Rock",
+               "anv":"Rob Base & EZ Rock",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":46281,
+               "resource_url":"https://api.discogs.com/artists/46281"
+            }
+         ],
+         "title":"It Takes Two",
+         "extraartists":[
+            {
+               "name":"Robert Ginyard",
+               "anv":"R. Ginyard",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":610296,
+               "resource_url":"https://api.discogs.com/artists/610296"
+            }
+         ],
+         "duration":"3:22"
+      },
+      {
+         "position":"2.19",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Newcleus",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3867,
+               "resource_url":"https://api.discogs.com/artists/3867"
+            }
+         ],
+         "title":"Jam On Revenge",
+         "extraartists":[
+            {
+               "name":"Maurice Cenac",
+               "anv":"Maurice B. Cenac",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":1491153,
+               "resource_url":"https://api.discogs.com/artists/1491153"
+            }
+         ],
+         "duration":"3:10"
+      },
+      {
+         "position":"2.20",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"C.O.D.",
+               "anv":"C.O.D",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":3290,
+               "resource_url":"https://api.discogs.com/artists/3290"
+            }
+         ],
+         "title":"In The Bottle",
+         "extraartists":[
+            {
+               "name":"Gil Scott-Heron",
+               "anv":"Gil Scott Heron",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":16533,
+               "resource_url":"https://api.discogs.com/artists/16533"
+            }
+         ],
+         "duration":"2:47"
+      },
+      {
+         "position":"2.21",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Warp 9",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":14654,
+               "resource_url":"https://api.discogs.com/artists/14654"
+            }
+         ],
+         "title":"Light Years Away",
+         "extraartists":[
+            {
+               "name":"Lotti Golden",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":143042,
+               "resource_url":"https://api.discogs.com/artists/143042"
+            },
+            {
+               "name":"Richard Scher",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":93285,
+               "resource_url":"https://api.discogs.com/artists/93285"
+            }
+         ],
+         "duration":"2:16"
+      },
+      {
+         "position":"2.22",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Tyrone Brunson",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":26232,
+               "resource_url":"https://api.discogs.com/artists/26232"
+            }
+         ],
+         "title":"The Smurf",
+         "extraartists":[
+            {
+               "name":"Otis Redding III",
+               "anv":"O. Redding III",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":715560,
+               "resource_url":"https://api.discogs.com/artists/715560"
+            }
+         ],
+         "duration":"2:50"
+      },
+      {
+         "position":"2.23",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"The Packman",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":18199,
+               "resource_url":"https://api.discogs.com/artists/18199"
+            }
+         ],
+         "title":"I'm The Packman",
+         "extraartists":[
+            {
+               "name":"Bobby Robinson",
+               "anv":"",
+               "join":"",
+               "role":"Written-By [Uncredited]",
+               "tracks":"",
+               "id":119103,
+               "resource_url":"https://api.discogs.com/artists/119103"
+            }
+         ],
+         "duration":"2:42"
+      },
+      {
+         "position":"2.24",
+         "type_":"track",
+         "artists":[
+            {
+               "name":"Malcolm X",
+               "anv":"",
+               "join":"",
+               "role":"",
+               "tracks":"",
+               "id":120911,
+               "resource_url":"https://api.discogs.com/artists/120911"
+            }
+         ],
+         "title":"No Sell Out",
+         "extraartists":[
+            {
+               "name":"Keith LeBlanc",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":40521,
+               "resource_url":"https://api.discogs.com/artists/40521"
+            },
+            {
+               "name":"Malcolm X",
+               "anv":"",
+               "join":"",
+               "role":"Written-By",
+               "tracks":"",
+               "id":120911,
+               "resource_url":"https://api.discogs.com/artists/120911"
+            }
+         ],
+         "duration":"2:59"
+      }
+   ],
+   "extraartists":[
+      {
+         "name":"Morgan Khan",
+         "anv":"",
+         "join":"",
+         "role":"Concept By [Conceived By], Compiled By, Liner Notes",
+         "tracks":"",
+         "id":93803,
+         "resource_url":"https://api.discogs.com/artists/93803"
+      },
+      {
+         "name":"Fela (6)",
+         "anv":"",
+         "join":"",
+         "role":"Cover [Cover Image]",
+         "tracks":"",
+         "id":4493221,
+         "resource_url":"https://api.discogs.com/artists/4493221"
+      },
+      {
+         "name":"PYMCA",
+         "anv":"",
+         "join":"",
+         "role":"Cover [Cover Image]",
+         "tracks":"",
+         "id":3337480,
+         "resource_url":"https://api.discogs.com/artists/3337480"
+      },
+      {
+         "name":"DJ Swerve",
+         "anv":"",
+         "join":"",
+         "role":"DJ Mix",
+         "tracks":"",
+         "id":216721,
+         "resource_url":"https://api.discogs.com/artists/216721"
+      },
+      {
+         "name":"Joel Harrison",
+         "anv":"",
+         "join":"",
+         "role":"Design, Art Direction",
+         "tracks":"",
+         "id":126902,
+         "resource_url":"https://api.discogs.com/artists/126902"
+      }
+   ],
+   "images":[
+      {
+         "type":"primary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":578
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":472
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":603
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":619
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":377,
+         "height":374
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":377,
+         "height":374
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":585,
+         "height":457
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":147
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":147
+      },
+      {
+         "type":"secondary",
+         "uri":"",
+         "resource_url":"",
+         "uri150":"",
+         "width":600,
+         "height":531
+      }
+   ],
+   "thumb":"",
+   "estimated_weight":170,
+   "blocked_from_sale":false
+}

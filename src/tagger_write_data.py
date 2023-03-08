@@ -8,9 +8,12 @@ from mutagen.flac import FLAC
 from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, TXXX
 
-def TaggerWriteData(files, discogs):
+def TaggerWriteData(files, discogs, folder):
 
     # print(discogs['json'])
+    print("processing " + folder)
+
+    print("\n".join(files))
 
     # artist
     artist = discogs['json'].get('artists_sort')

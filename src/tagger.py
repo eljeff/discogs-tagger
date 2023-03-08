@@ -6,7 +6,7 @@ from tagger_write_data import TaggerWriteData
 # packages
 import style
 
-def Tagger(files, discogs):
+def Tagger(files, discogs, folder):
 
     if discogs is None:
         TaggerWriteNone(files)
@@ -16,6 +16,6 @@ def Tagger(files, discogs):
     print(style.blue(discogs['url']))
     print()
 
-    TaggerWriteData(files, discogs)
+    TaggerWriteData(files, discogs, folder)
 
     return

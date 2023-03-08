@@ -36,6 +36,6 @@ for folder in folders:
         print(style.yellow(ENV_TAGGING_TODO))
         continue
 
-    Tagger(files, discogs)
+    Tagger(files, discogs, folder)
 
 print('\n')

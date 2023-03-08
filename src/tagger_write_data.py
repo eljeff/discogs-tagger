@@ -56,6 +56,7 @@ def TaggerWriteData(files, discogs):
             if file_extension == 'flac':
                 f = FLAC(file)
                 f['artist'] = artist
+                f['albumartist'] = artist
                 f['album'] = album
                 f['title'] = track_title
                 f['organization'] = label

@@ -45,6 +45,14 @@ def TaggerWriteData(files, discogs):
     styles = UtilsArrayToString(discogs['json'].get('styles'))
 
     track_list = discogs['json'].get('tracklist')
+    total_discs = ''
+
+    for track_info in track_list:
+        position = track_info.get('position')
+        if position != '':
+            if position.find('.') >= 0:
+                positions = position.split('.')
+                total_discs = positions[0]
 
     i = 0
 
@@ -53,25 +61,35 @@ def TaggerWriteData(files, discogs):
 
         track_artist = ''
         track_title = ''
-        
+        disc_number = ''
+        current_disc = ''
+
         for track_info in track_list:
             position = track_info.get('position')
             if position != '':
+                if position.find('.') >= 0:
+                    positions = position.split('.')
+                    disc_number = positions[0]
+                    position = positions[1]
+
                 if int(position) == i:
                     track_title = track_info.get('title')
-
                     track_artists = track_info.get('artists')
                     if track_artists is not None and len(track_artists) > 0:
                         track_artist = track_artists[0].get('name')
                     else:
                         track_artist = artist
 
-                    print("got info")
-                    print(track_info)
+                    break
+
+                    # print(track_info)
 
 
         print("track_artist is " + track_artist)
         print("track_title is " + track_title)
+        print("disc_number is " + disc_number)
+        print("total_discs is " + total_discs)
+
         try:
             file_extension = file.rsplit('.', 1)[1]
 
@@ -84,6 +102,8 @@ def TaggerWriteData(files, discogs):
                 f['organization'] = label
                 f['composer'] = genres
                 f['genre'] = styles
+                f['discnumber'] = disc_number
+                f['total_discs'] = total_discs
                 if date is not None: f['date'] = str(date)
                 f['country'] = country
                 # f['custom'] = ENV_TAGGING_DONE + ' ' + f['custom'][0]
@@ -91,7 +111,7 @@ def TaggerWriteData(files, discogs):
                 print("saving flac...")
                 f.save()
 
-                print("got flac")
+                print("saved flac!")
                 print(f['tracknumber'][0] + ' done')
             
             if file_extension == 'mp3':

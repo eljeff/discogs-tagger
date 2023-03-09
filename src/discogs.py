@@ -9,7 +9,7 @@ import json
 import mutagen
 from mutagen.mp3 import MP3
 
-def Discogs(files):
+def Discogs(files, sample_json):
     # get json
     discogs_api_base_url = 'https://api.discogs.com/releases/'
     file_extension = files[0].rsplit('.', 1)[1]
@@ -60,6 +60,12 @@ def Discogs(files):
     # logics if discogs/master
     # if '/master/' in discogs_url:
     #     discogs_id = DiscogsGetReleaseFromMaster(discogs_id)
+
+    if sample_json != '':
+        return {
+            'json': sample_json,
+            'url': discogs_api_base_url + discogs_id,
+        }
 
     DiscogsSleep()
     

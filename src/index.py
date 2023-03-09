@@ -9,20 +9,28 @@ from tagger import Tagger
 import style
 import logging
 import traceback
+import os
+import json
 
 folders = Folder(ENV_PATHS)
-# print(style.green('\n' + MY_PATH))
+sample_json = ''
+
+if DISCOGS_SAMPLE_FILE != '':
+    print(DISCOGS_SAMPLE_FILE)
+    sample_file_path = os.getcwd() + '/' + DISCOGS_SAMPLE_FILE
+    json_file = open(sample_file_path)
+    sample_json = json.load(json_file)
+
 
 for folder in folders:
 
     print(style.yellow('\n---\n'))
 
     print(style.green(folder))
-    print()
 
     files = File(folder)
     try:
-        discogs = Discogs(files)
+        discogs = Discogs(files, sample_json)
     except Exception as e:
         print(style.red('some error happened...'))
         logging.error(traceback.format_exc())

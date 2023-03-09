@@ -8,3 +8,5 @@ ENV_TAGGING_DONE = 'DONE'
 ENV_PATHS = [
 	'/Users/Shared/rips'
 ]
+
+DISCOGS_SAMPLE_FILE = 'sample-discogs-compilation.json'

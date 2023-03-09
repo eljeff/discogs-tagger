@@ -60,35 +60,34 @@ def TaggerWriteData(files, discogs, folder):
     i = 0
 
     for file in files:
-        i += 1
 
         track_artist = ''
         track_title = ''
         disc_number = ''
-        current_disc = ''
+        track_number = ''
 
-        for track_info in track_list:
+        track_info = track_list[i]
+        position = track_info.get('position')
+        while position == '':
+            track_info = track_list[i]
             position = track_info.get('position')
-            if position != '':
-                if position.find('.') >= 0:
-                    positions = position.split('.')
-                    disc_number = positions[0]
-                    position = positions[1]
+            i += 1
 
-                if int(position) == i:
-                    track_title = track_info.get('title')
-                    track_artists = track_info.get('artists')
-                    if track_artists is not None and len(track_artists) > 0:
-                        track_artist = track_artists[0].get('name')
-                    else:
-                        track_artist = artist
-
-                    break
-
-                    # print(track_info)
+        if position.find('.') >= 0:
+            positions = position.split('.')
+            disc_number = positions[0]
+            track_number = positions[1]
+        
+        track_title = track_info.get('title')
+        track_artists = track_info.get('artists')
+        if track_artists is not None and len(track_artists) > 0:
+            track_artist = track_artists[0].get('name')
+        else:
+            track_artist = artist
 
 
         print("track_artist is " + track_artist)
+        print("track_number is " + track_number)
         print("track_title is " + track_title)
         print("disc_number is " + disc_number)
         print("total_discs is " + total_discs)
@@ -102,6 +101,7 @@ def TaggerWriteData(files, discogs, folder):
                 f['albumartist'] = artist
                 f['album'] = album
                 f['title'] = track_title
+                f['tracknumber'] = track_number
                 f['organization'] = label
                 f['composer'] = genres
                 f['genre'] = styles
@@ -145,3 +145,5 @@ def TaggerWriteData(files, discogs, folder):
         except:
             print(style.red(ENV_ERROR_TAGGING))
             continue
+        
+        i += 1

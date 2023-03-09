@@ -65,6 +65,7 @@ def Discogs(files, sample_json):
         return {
             'json': sample_json,
             'url': discogs_api_base_url + discogs_id,
+            'discogs_id': discogs_id,
         }
 
     DiscogsSleep()
@@ -74,4 +75,5 @@ def Discogs(files, sample_json):
     return {
         'json': json.loads(response.text),
         'url': discogs_api_base_url + discogs_id,
+        'discogs_id': discogs_id,
     }

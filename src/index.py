@@ -21,6 +21,7 @@ if DISCOGS_SAMPLE_FILE != '':
     json_file = open(sample_file_path)
     sample_json = json.load(json_file)
 
+completed_releases = []
 
 for folder in folders:
 
@@ -31,6 +32,7 @@ for folder in folders:
     files = File(folder)
     try:
         discogs = Discogs(files, sample_json)
+        
     except Exception as e:
         print(style.red('some error happened...'))
         logging.error(traceback.format_exc())
@@ -44,6 +46,16 @@ for folder in folders:
         print(style.yellow(ENV_TAGGING_TODO))
         continue
 
-    Tagger(files, discogs, folder)
+    if discogs == None:
+        print(style.yellow(ENV_ERROR_DISCOGS_NULL))
+        continue
+
+
+    discogs_id = discogs['discogs_id']
+    if discogs_id not in completed_releases:
+        Tagger(files, discogs, folder)
+        completed_releases.append(discogs_id)
+    else:
+        print("already processed " + discogs_id)
 
 print('\n')

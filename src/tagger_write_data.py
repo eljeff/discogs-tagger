@@ -10,13 +10,14 @@ from mutagen.id3 import ID3, TXXX
 
 def TaggerWriteData(files, discogs, folder):
 
-    # print(discogs['json'])
     print("processing " + folder)
 
-    print("\n".join(files))
+    # print("\n".join(files))
 
     # artist
     artist = discogs['json'].get('artists_sort')
+    if artist.lower() == "various":
+        artist = 'Compilations'
     print("artist is " + artist)
 
     # album
@@ -29,28 +30,30 @@ def TaggerWriteData(files, discogs, folder):
 
     # country
     country = discogs['json'].get('country')
-    print("country is " + country)
-
     if country is None:
         country = ''
+    print("country is " + country)
 
     # date
     date = discogs['json'].get('year')
     print("date is " + str(date))
 
-    # if date is not None:
-    #     date = [date.replace('-', '/').replace('/00', '/01')]
-
     # genres
     genres = UtilsArrayToString(discogs['json'].get('genres'))
+    print("genres is " + genres)
     
     # styles
     styles = UtilsArrayToString(discogs['json'].get('styles'))
+    print("styles is " + styles)
 
     catalog = discogs['json'].get('labels')[0].get('catno')
+    print("catalog is " + catalog)
     label_id = discogs['json'].get('labels')[0].get('id')
-    rating = discogs['json'].get('community').get('rating').get('average')
+    print("label_id is " + str(label_id))
     released = discogs['json'].get('released')
+    print("released is " + released)
+    # rating = discogs['json'].get('community').get('rating').get('average')
+    # print("rating is " + rating)
     master_release_id = ''
     release_month = ''
     votes = ''
@@ -64,16 +67,19 @@ def TaggerWriteData(files, discogs, folder):
             if position.find('.') >= 0:
                 positions = position.split('.')
                 total_discs = positions[0]
+    print("total_discs is " + total_discs)
 
     i = 0
+    tracknumber = 1
+    last_disc = 1
+    disc_number = ''
 
     for file in files:
 
         track_artist = ''
         track_artist_id = ''
         track_title = ''
-        disc_number = ''
-        track_number = ''
+        track_position = ''
         vinyltrack = ''
 
         track_info = track_list[i]
@@ -86,7 +92,13 @@ def TaggerWriteData(files, discogs, folder):
         if position.find('.') >= 0:
             positions = position.split('.')
             disc_number = positions[0]
-            track_number = positions[1]
+            track_position = positions[1]
+
+        if not track_position.isnumeric:
+            vinyltrack = track_position
+
+        if last_disc != disc_number:
+            tracknumber = 1
         
         track_title = track_info.get('title')
         track_artists = track_info.get('artists')
@@ -96,46 +108,38 @@ def TaggerWriteData(files, discogs, folder):
         else:
             track_artist = artist
 
-
         print("track_artist is " + track_artist)
         print("track_artist_id is " + str(track_artist_id))
-        print("track_number is " + track_number)
+        print("track_position is " + track_position)
+        print("tracknumber is " + str(tracknumber))
         print("track_title is " + track_title)
         print("disc_number is " + disc_number)
         print("total_discs is " + total_discs)
 
-# DISCOGS_ARTIST_ID:«multiple values» 27521; 1769553; 106537; 17689
-# DISCOGS_CATALOG:VISLTD 3
-# DISCOGS_COUNTRY:UK
-# DISCOGS_LABEL:20:20 Vision
-# DISCOGS_LABEL_ID:15
-# DISCOGS_MASTER_RELEASE_ID:224033
-# DISCOGS_RATING:3.88
-# discogs_release_id:430851
-# DISCOGS_RELEASE_MONTH:04
-# DISCOGS_RELEASED:2005-04-18
-# DISCOGS_VOTES:24
-# STYLE:House; Electro; Tech House
-# VINYLTRACK:«multiple values» A1; B1; B2
         try:
             file_extension = file.rsplit('.', 1)[1]
 
             if file_extension == 'flac':
                 f = FLAC(file)
                 f['artist'] = track_artist
-                f['DISCOGS_ARTIST_ID'] = track_artist_id
                 f['albumartist'] = artist
                 f['album'] = album
                 f['title'] = track_title
-                f['tracknumber'] = track_number
+                f['tracknumber'] = str(tracknumber)
+                if vinyltrack != '': f['vinyltrack'] = vinyltrack
                 f['organization'] = label
-                f['composer'] = genres
-                f['genre'] = styles
+                f['genre'] = genres
                 f['discnumber'] = disc_number
                 f['total_discs'] = total_discs
                 if date is not None: f['date'] = str(date)
                 f['country'] = country
-                # f['custom'] = ENV_TAGGING_DONE + ' ' + f['custom'][0]
+                f['DISCOGS_ARTIST_ID'] = str(track_artist_id)
+                f['DISCOGS_CATALOG'] = catalog
+                f['DISCOGS_COUNTRY'] = country
+                f['DISCOGS_LABEL'] = label
+                f['DISCOGS_LABEL_ID'] = str(label_id)
+                f['DISCOGS_RELEASED'] = released
+                f['STYLE'] = styles
 
                 print("saving flac...")
                 f.save()
@@ -147,7 +151,6 @@ def TaggerWriteData(files, discogs, folder):
                 f = EasyID3(file)
 
                 f['organization'] = label
-                f['composer'] = genres
                 f['genre'] = styles
                 if date is not None: f['date'] = date
 
@@ -170,6 +173,8 @@ def TaggerWriteData(files, discogs, folder):
                 print(f['tracknumber'][0] + ' done')
         except:
             print(style.red(ENV_ERROR_TAGGING))
-            continue
-        
+            continue 
         i += 1
+        tracknumber += 1
+        last_disc = disc_number
+        print("i is " + str(i))

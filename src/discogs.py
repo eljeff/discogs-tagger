@@ -18,15 +18,6 @@ def Discogs(files, sample_json):
     # FLAC
     if file_extension == 'flac':
         file = mutagen.File(files[0])
-
-        # if file.get('custom') is None:
-        #     return None
-
-        # if file.get('custom')[0][:4] == ENV_TAGGING_DONE:
-        #     return ENV_TAGGING_DONE
-        
-        # if file.get('custom')[0][:4] == ENV_TAGGING_TODO:
-        #     return ENV_TAGGING_TODO
         
         release_id_arr = file.get('discogs_release_id')
 
@@ -36,7 +27,6 @@ def Discogs(files, sample_json):
             release_id = release_id_arr[0]
             discogs_id = release_id
             discogs_url = "https://www.discogs.com/release/" + str(release_id)
-            print("discogs_id ID from release_id")
 
         print("discogs_id IS " + discogs_id)
 
@@ -56,10 +46,6 @@ def Discogs(files, sample_json):
         discogs_url = str(file.get('TXXX:Custom'))
         discogs_slug = discogs_url.rsplit('/', 1)[1]
         discogs_id = discogs_slug.split('-', 1)[0]
-
-    # logics if discogs/master
-    # if '/master/' in discogs_url:
-    #     discogs_id = DiscogsGetReleaseFromMaster(discogs_id)
 
     if sample_json != '':
         return {

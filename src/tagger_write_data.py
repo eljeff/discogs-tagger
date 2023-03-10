@@ -12,51 +12,39 @@ def TaggerWriteData(files, discogs, folder):
 
     print("processing " + folder)
 
-    # print("\n".join(files))
-
-    # artist
     artist = discogs['json'].get('artists_sort')
     if artist.lower() == "various":
         artist = 'Compilations'
     print("artist is " + artist)
 
-    # album
     album = discogs['json'].get('title')
     print("album is " + album)
 
-    # label
     label = discogs['json'].get('labels')[0]['name']
     print("label is " + label)
 
-    # country
     country = discogs['json'].get('country')
     if country is None:
         country = ''
     print("country is " + country)
 
-    # date
     date = discogs['json'].get('year')
     print("date is " + str(date))
 
-    # genres
     genres = UtilsArrayToString(discogs['json'].get('genres'))
     print("genres is " + genres)
     
-    # styles
     styles = UtilsArrayToString(discogs['json'].get('styles'))
     print("styles is " + styles)
 
     catalog = discogs['json'].get('labels')[0].get('catno')
     print("catalog is " + catalog)
+
     label_id = discogs['json'].get('labels')[0].get('id')
     print("label_id is " + str(label_id))
+
     released = discogs['json'].get('released')
     print("released is " + released)
-    # rating = discogs['json'].get('community').get('rating').get('average')
-    # print("rating is " + rating)
-    master_release_id = ''
-    release_month = ''
-    votes = ''
 
     track_list = discogs['json'].get('tracklist')
     total_discs = ''
@@ -145,7 +133,6 @@ def TaggerWriteData(files, discogs, folder):
                 f.save()
 
                 print("saved flac!")
-                print(f['tracknumber'][0] + ' done')
             
             if file_extension == 'mp3':
                 f = EasyID3(file)
@@ -177,4 +164,3 @@ def TaggerWriteData(files, discogs, folder):
         i += 1
         tracknumber += 1
         last_disc = disc_number
-        print("i is " + str(i))

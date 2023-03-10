@@ -47,6 +47,14 @@ def TaggerWriteData(files, discogs, folder):
     # styles
     styles = UtilsArrayToString(discogs['json'].get('styles'))
 
+    catalog = discogs['json'].get('labels')[0].get('catno')
+    label_id = discogs['json'].get('labels')[0].get('id')
+    rating = discogs['json'].get('community').get('rating').get('average')
+    released = discogs['json'].get('released')
+    master_release_id = ''
+    release_month = ''
+    votes = ''
+
     track_list = discogs['json'].get('tracklist')
     total_discs = ''
 
@@ -62,9 +70,11 @@ def TaggerWriteData(files, discogs, folder):
     for file in files:
 
         track_artist = ''
+        track_artist_id = ''
         track_title = ''
         disc_number = ''
         track_number = ''
+        vinyltrack = ''
 
         track_info = track_list[i]
         position = track_info.get('position')
@@ -82,22 +92,38 @@ def TaggerWriteData(files, discogs, folder):
         track_artists = track_info.get('artists')
         if track_artists is not None and len(track_artists) > 0:
             track_artist = track_artists[0].get('name')
+            track_artist_id = track_artists[0].get('id')
         else:
             track_artist = artist
 
 
         print("track_artist is " + track_artist)
+        print("track_artist_id is " + str(track_artist_id))
         print("track_number is " + track_number)
         print("track_title is " + track_title)
         print("disc_number is " + disc_number)
         print("total_discs is " + total_discs)
 
+# DISCOGS_ARTIST_ID:«multiple values» 27521; 1769553; 106537; 17689
+# DISCOGS_CATALOG:VISLTD 3
+# DISCOGS_COUNTRY:UK
+# DISCOGS_LABEL:20:20 Vision
+# DISCOGS_LABEL_ID:15
+# DISCOGS_MASTER_RELEASE_ID:224033
+# DISCOGS_RATING:3.88
+# discogs_release_id:430851
+# DISCOGS_RELEASE_MONTH:04
+# DISCOGS_RELEASED:2005-04-18
+# DISCOGS_VOTES:24
+# STYLE:House; Electro; Tech House
+# VINYLTRACK:«multiple values» A1; B1; B2
         try:
             file_extension = file.rsplit('.', 1)[1]
 
             if file_extension == 'flac':
                 f = FLAC(file)
                 f['artist'] = track_artist
+                f['DISCOGS_ARTIST_ID'] = track_artist_id
                 f['albumartist'] = artist
                 f['album'] = album
                 f['title'] = track_title

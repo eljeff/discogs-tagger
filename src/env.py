@@ -9,4 +9,4 @@ ENV_PATHS = [
 	'/Users/Shared/rips'
 ]
 
-DISCOGS_SAMPLE_FILE = 'sample-discogs-compilation.json'
+DISCOGS_SAMPLE_FILE = ''

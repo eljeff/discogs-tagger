@@ -8,6 +8,15 @@ from mutagen.flac import FLAC
 from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, TXXX
 
+def addTagIfPresent(tag, destination, file):
+    if tag is not None and str(tag) != '':
+        file[destination] = str(tag)
+        print("writing " + str(tag) + " to " + destination)
+    else:
+        print(destination + " not present (" + str(tag) + ") - skipping")
+    return
+
+
 def TaggerWriteData(files, discogs, folder):
 
     print("processing " + folder)
@@ -109,25 +118,25 @@ def TaggerWriteData(files, discogs, folder):
 
             if file_extension == 'flac':
                 f = FLAC(file)
-                f['artist'] = track_artist
-                f['albumartist'] = artist
-                f['album'] = album
-                f['title'] = track_title
-                f['tracknumber'] = str(tracknumber)
-                if vinyltrack != '': f['vinyltrack'] = vinyltrack
-                f['organization'] = label
-                f['genre'] = genres
-                f['discnumber'] = disc_number
-                f['total_discs'] = total_discs
-                if date is not None: f['date'] = str(date)
-                f['country'] = country
-                f['DISCOGS_ARTIST_ID'] = str(track_artist_id)
-                f['DISCOGS_CATALOG'] = catalog
-                f['DISCOGS_COUNTRY'] = country
-                f['DISCOGS_LABEL'] = label
-                f['DISCOGS_LABEL_ID'] = str(label_id)
-                f['DISCOGS_RELEASED'] = released
-                f['STYLE'] = styles
+                addTagIfPresent(track_artist, 'artist', f)
+                addTagIfPresent(artist, 'albumartist', f)
+                addTagIfPresent(album, 'album', f)
+                addTagIfPresent(track_title, 'title', f)
+                addTagIfPresent(tracknumber, 'tracknumber', f)
+                addTagIfPresent(vinyltrack, 'vinyltrack', f)
+                addTagIfPresent(label, 'organization', f)
+                addTagIfPresent(genres, 'genre', f)
+                addTagIfPresent(disc_number, 'discnumber', f)
+                addTagIfPresent(total_discs, 'totaldiscs', f)
+                addTagIfPresent(date, 'date', f)
+                addTagIfPresent(country, 'country', f)
+                addTagIfPresent(track_artist_id, 'DISCOGS_ARTIST_ID', f)
+                addTagIfPresent(catalog, 'DISCOGS_CATALOG', f)
+                addTagIfPresent(country, 'DISCOGS_COUNTRY', f)
+                addTagIfPresent(label, 'DISCOGS_LABEL', f)
+                addTagIfPresent(label_id, 'DISCOGS_LABEL_ID', f)
+                addTagIfPresent(released, 'DISCOGS_RELEASED', f)
+                addTagIfPresent(styles, 'STYLE', f)
 
                 print("saving flac...")
                 f.save()

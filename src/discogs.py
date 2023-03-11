@@ -9,7 +9,7 @@ import json
 import mutagen
 from mutagen.mp3 import MP3
 
-def Discogs(files, sample_json):
+def Discogs(files, sample_json, processed_ids):
     # get json
     discogs_api_base_url = 'https://api.discogs.com/releases/'
     file_extension = files[0].rsplit('.', 1)[1]
@@ -53,13 +53,17 @@ def Discogs(files, sample_json):
             'url': discogs_api_base_url + discogs_id,
             'discogs_id': discogs_id,
         }
+    
+    if discogs_id not in processed_ids:
+        DiscogsSleep()
+        response = requests.get(discogs_api_base_url + discogs_id)
+        return {
+            'json': json.loads(response.text),
+            'url': discogs_api_base_url + discogs_id,
+            'discogs_id': discogs_id,
+        }
+    else:
+        print("already processed " + discogs_id)
+        return ENV_ALREADY_PROCESSED
 
-    DiscogsSleep()
     
-    response = requests.get(discogs_api_base_url + discogs_id)
-    
-    return {
-        'json': json.loads(response.text),
-        'url': discogs_api_base_url + discogs_id,
-        'discogs_id': discogs_id,
-    }

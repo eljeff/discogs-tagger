@@ -31,7 +31,7 @@ for folder in folders:
 
     files = File(folder)
     try:
-        discogs = Discogs(files, sample_json)
+        discogs = Discogs(files, sample_json, completed_releases)
         
     except Exception as e:
         print(style.red('some error happened...'))
@@ -44,6 +44,10 @@ for folder in folders:
     
     if discogs == ENV_TAGGING_TODO:
         print(style.yellow(ENV_TAGGING_TODO))
+        continue
+
+    if discogs == ENV_ALREADY_PROCESSED:
+        print(style.yellow(ENV_ALREADY_PROCESSED))
         continue
 
     if discogs == None:

@@ -118,17 +118,7 @@ def TaggerWriteData(files, discogs, folder):
         else:
             track_artist = artist
 
-
         totaltracks = total_track_count[disc_number - 1]
-
-        print("track_artist is " + track_artist)
-        print("track_artist_id is " + str(track_artist_id))
-        print("track_position is " + track_position)
-        print("tracknumber is " + str(tracknumber))
-        print("totaltracks is " + str(totaltracks))
-        print("track_title is " + track_title)
-        print("disc_number is " + str(disc_number))
-        print("total_discs is " + str(total_discs))
 
         try:
             file_extension = file.rsplit('.', 1)[1]
@@ -144,8 +134,9 @@ def TaggerWriteData(files, discogs, folder):
                 addTagIfPresent(vinyltrack, 'vinyltrack', f)
                 addTagIfPresent(label, 'organization', f)
                 addTagIfPresent(genres, 'genre', f)
-                addTagIfPresent(disc_number, 'discnumber', f)
-                addTagIfPresent(total_discs, 'totaldiscs', f)
+                if total_discs != '' and int(total_discs) > 1:
+                    addTagIfPresent(disc_number, 'discnumber', f)
+                    addTagIfPresent(total_discs, 'totaldiscs', f)
                 addTagIfPresent(date, 'date', f)
                 addTagIfPresent(country, 'country', f)
                 addTagIfPresent(track_artist_id, 'DISCOGS_ARTIST_ID', f)

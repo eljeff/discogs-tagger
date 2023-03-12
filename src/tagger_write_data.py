@@ -95,9 +95,9 @@ def TaggerWriteData(files, discogs, folder):
         track_info = track_list[i]
         position = track_info.get('position')
         while position == '':
+            i += 1
             track_info = track_list[i]
             position = track_info.get('position')
-            i += 1
 
         if position.find('.') >= 0:
             positions = position.split('.')

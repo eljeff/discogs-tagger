@@ -25,37 +25,26 @@ def TaggerWriteData(files, discogs, folder):
     if artist.lower() == "various":
         artist = 'Compilations'
     artist_id = discogs['json'].get('artists')[0].get('id')
-    print("artist is " + artist)
-    print("artist_id is " + str(artist_id))
 
     album = discogs['json'].get('title')
-    print("album is " + album)
 
     label = discogs['json'].get('labels')[0]['name']
-    print("label is " + label)
 
     country = discogs['json'].get('country')
     if country is None:
         country = ''
-    print("country is " + country)
 
     date = discogs['json'].get('year')
-    print("date is " + str(date))
 
     genres = UtilsArrayToString(discogs['json'].get('genres'))
-    print("genres is " + genres)
     
     styles = UtilsArrayToString(discogs['json'].get('styles'))
-    print("styles is " + styles)
 
     catalog = discogs['json'].get('labels')[0].get('catno')
-    print("catalog is " + catalog)
 
     label_id = discogs['json'].get('labels')[0].get('id')
-    print("label_id is " + str(label_id))
 
     released = discogs['json'].get('released')
-    print("released is " + released)
 
     track_list = discogs['json'].get('tracklist')
     total_discs = ''
@@ -79,15 +68,12 @@ def TaggerWriteData(files, discogs, folder):
                 positions = position.split('.')
                 if current_disc != int(positions[0]):
                     total_track_count.append(track_i)
-                    print("got new disc - last track count was " + str(track_i))
                     track_i = 0
                 current_disc = int(positions[0])
                 total_discs = str(current_disc)
         track_i += 1
 
     total_track_count.append(track_i)
-    print("done counting - last track count was " + str(track_i))
-    print("total_discs is " + total_discs)
 
     i = 0
     tracknumber = 1
@@ -165,6 +151,7 @@ def TaggerWriteData(files, discogs, folder):
                 print("saved flac!")
             
             if file_extension == 'mp3':
+                #TODO: handle mp3s?
                 f = EasyID3(file)
 
                 f['organization'] = label

@@ -8,7 +8,7 @@ Heavily modified version of https://github.com/bamdadsabbagh/tagger to work with
 - Does not write album artist tag if all track artists match the sort_artist
 - Tries to intelligently write tracknumber, total tracks, vinyl tracks, disc number, total discs
 - Skips re-running subfolder if release already processed via super-folder parsing (need to look into this)
-- Includes sample discogs api output for further inspection
+- Includes sample discogs api output for further inspection (used https://jsonformatter.curiousconcept.com/# to format raw api output)
 
 <p align=center>
   <a href="https://github.com/eljeff/discogs-tagger"><img width=150 src="https://www.discogs.com/images/brand/discogs-logo.svg"></a>

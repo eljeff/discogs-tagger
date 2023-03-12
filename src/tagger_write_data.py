@@ -24,7 +24,9 @@ def TaggerWriteData(files, discogs, folder):
     artist = discogs['json'].get('artists_sort')
     if artist.lower() == "various":
         artist = 'Compilations'
+    artist_id = discogs['json'].get('artists')[0].get('id')
     print("artist is " + artist)
+    print("artist_id is " + str(artist_id))
 
     album = discogs['json'].get('title')
     print("album is " + album)
@@ -60,9 +62,17 @@ def TaggerWriteData(files, discogs, folder):
 
     total_track_count = []
 
+    single_artist = True
+    last_artist = artist
     track_i = 0
     current_disc = 1
     for track_info in track_list:
+        track_artists = track_info.get('artists')
+        if track_artists is not None and len(track_artists) > 0:
+            current_artist = track_artists[0].get('name')
+            if current_artist != last_artist:
+                single_artist = False
+            last_artist = current_artist
         position = track_info.get('position')
         if position != '':
             if position.find('.') >= 0:
@@ -117,6 +127,7 @@ def TaggerWriteData(files, discogs, folder):
             track_artist_id = track_artists[0].get('id')
         else:
             track_artist = artist
+            track_artist_id = artist_id
 
         totaltracks = total_track_count[disc_number - 1]
 
@@ -126,7 +137,8 @@ def TaggerWriteData(files, discogs, folder):
             if file_extension == 'flac':
                 f = FLAC(file)
                 addTagIfPresent(track_artist, 'artist', f)
-                addTagIfPresent(artist, 'albumartist', f)
+                if not single_artist:
+                    addTagIfPresent(artist, 'albumartist', f)
                 addTagIfPresent(album, 'album', f)
                 addTagIfPresent(track_title, 'title', f)
                 addTagIfPresent(tracknumber, 'tracknumber', f)

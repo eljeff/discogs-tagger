@@ -11,7 +11,7 @@ Heavily modified version of https://github.com/bamdadsabbagh/tagger to work with
 - Includes sample discogs api output for further inspection
 
 <p align=center>
-  <a href="https://github.com/bamdadsabbagh/tagger"><img width=150 src="https://www.discogs.com/images/brand/discogs-logo.svg"></a>
+  <a href="https://github.com/eljeff/discogs-tagger"><img width=150 src="https://www.discogs.com/images/brand/discogs-logo.svg"></a>
 </p>
 
 <p align=center>
@@ -19,7 +19,7 @@ Heavily modified version of https://github.com/bamdadsabbagh/tagger to work with
 </p>
 
 <p align=center>
-  <a href="https://github.com/bamdadsabbagh/tagger"><img src="https://img.shields.io/github/stars/bamdadsabbagh/tagger?label=git"></a>
+  <a href="https://github.com/eljeff/discogs-tagger"><img src="https://img.shields.io/github/stars/bamdadsabbagh/tagger?label=git"></a>
   <img src="https://img.shields.io/github/license/bamdadsabbagh/tagger">
 </p>
 
@@ -54,7 +54,7 @@ Heavily modified version of https://github.com/bamdadsabbagh/tagger to work with
 ## How to install
 
 ```bash
-git clone git@github.com:bamdadsabbagh/tagger.git
+git clone git@github.com:eljeff/discogs-tagger.git
 cd tagger
 ./bin-install.sh
 ```
@@ -68,7 +68,3 @@ change `ENV_PATHS` in `src/env.py`
 ```bash
 ./bin-run.sh
 ```
-
-## TODO
-
-- [ ] dockerize to execute everywhere

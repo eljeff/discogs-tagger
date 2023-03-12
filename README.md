@@ -18,33 +18,6 @@ Heavily modified version of https://github.com/bamdadsabbagh/tagger to work with
   Get data from Discogs API and automatically tag audio files
 </p>
 
-<p align=center>
-  <a href="https://github.com/eljeff/discogs-tagger"><img src="https://img.shields.io/github/stars/bamdadsabbagh/tagger?label=git"></a>
-  <img src="https://img.shields.io/github/license/bamdadsabbagh/tagger">
-</p>
-
-<p align=center>
-  <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/tagger">
-  <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/tagger">
-</p>
-
-<p align=center>
-  <img src="https://img.shields.io/github/v/release/bamdadsabbagh/tagger">
-  <img src="https://api.codeclimate.com/v1/badges/cdc93bb5c41d0f1368fd/maintainability">
-</p>
-
-<p align=center>
-  <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/tagger">
-</p>
-
-<p align=center>
-  <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen">
-</p>
-
-<p align=center>
-  <img src="https://i.imgur.com/0XdbwG1.gif">
-</p>
-
 ## Dependencies
 
 - python3
@@ -61,7 +34,8 @@ cd tagger
 
 ## Configuration file
 
-change `ENV_PATHS` in `src/env.py`
+change `ENV_PATHS` in `src/env.py` to the directory containing files you'd like to tag.
+Files are expected to be in folders per album.
 
 ## Run
 

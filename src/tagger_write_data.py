@@ -99,8 +99,10 @@ def TaggerWriteData(files, discogs, folder):
             positions = position.split('.')
             disc_number = int(positions[0])
             track_position = positions[1]
+        else:
+            track_position = position
 
-        if not track_position.isnumeric:
+        if not track_position.isnumeric():
             vinyltrack = track_position
 
         if last_disc != disc_number:
